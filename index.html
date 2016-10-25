@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Тестовое задани 2</title>
+    <script src="/src/lib/jquery-3.1.1.min.js"></script>
+    <script src="/src/lib/bootstrap.min.js"></script>
+    <script src="/src/js/index.js"></script>
+    <link rel="stylesheet" href="/src/lib/bootstrap.min.css" type="text/css">
+</head>
+<body>
+    <script type="text/javascript">
+        
+    </script>
+    <div class="container">
+        <div class="row">
+            <br/>
+            <div class="col-xs-4 col-xs-offset-1">
+                <input type="text" class="form-control" id="url" value="/"/>
+            </div>
+            <div class="col-xs-4">
+                <button id="button-url" class="btn btn-info btn-md" type="button" data-toggle="modal" data-target="#response">Открыть</button>
+            </div>
+        </div>
+        <div id="response" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title">Реультат запроса</h4>
+                    </div>
+                    <div class="modal-body" id="response-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+</body>
+</html>
